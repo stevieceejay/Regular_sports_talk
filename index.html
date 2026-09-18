@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sports Chat is an AI companion for honest, everyday sports talk."
+    />
+    <title>Sports Chat — Talk sports like a regular</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Sports Chat home">
+        <span class="brand-mark" aria-hidden="true">SC</span>
+        <span>Sports Chat</span>
+      </a>
+      <a class="header-link" href="#mockup">See the concept <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">The fan point of view</p>
+          <h1 id="hero-title">Do you want to know why coach ran that play?</h1>
+          <p class="hero-intro">
+            Sports talk without the press conference voice. Just the reactions,
+            questions, and arguments fans actually have.
+          </p>
+          <a class="button button-primary" href="#about">
+            Find out what we’re building <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+        <figure class="reaction-photo">
+          <img
+            src="https://drive.google.com/thumbnail?id=1wRp9Fi448B29gUQvMEtD1Q1nKjhwrAiV&amp;sz=w1600"
+            alt="Sports Chat"
+          />
+        </figure>
+      </section>
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-label">
+          <span class="section-number">01</span>
+          <span>Why this exists</span>
+        </div>
+        <div class="about-grid">
+          <h2 id="about-title">Sports talk for the rest of us.</h2>
+          <div class="about-copy">
+            <p>
+              Tobias and I are regular guys who love sports. We talk about it
+              like we get paid for it—but we don’t.
+            </p>
+            <p>
+              We’re building an AI chatbot that turns our questions into the
+              honest, everyday reactions regular fans actually have. Anyone will
+              be able to visit the site, try it out, and make it part of their
+              own sports routine.
+            </p>
+            <p>
+              Our personal goal is to use it while streaming: regular guys
+              talking sports with AI.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mockup-section section-shell" id="mockup" aria-labelledby="mockup-title">
+        <div class="section-label">
+          <span class="section-number">02</span>
+          <span>Early look</span>
+        </div>
+        <div class="mockup-heading">
+          <div>
+            <p class="eyebrow">A conversation starter</p>
+            <h2 id="mockup-title">Ask about your team.</h2>
+          </div>
+          <p class="mockup-description">
+            The first concept is built around clear answers, useful context,
+            and the kind of follow-up questions fans ask every Sunday.
+          </p>
+        </div>
+        <div class="pdf-frame">
+          <iframe
+            src="https://drive.google.com/file/d/1TIvXePCm-TjWdKy8HeXy5PJ4U7F4YBcU/preview"
+            title="Sports Chat product mockup"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <form class="feedback-card" id="feedback-form">
+          <div>
+            <p class="eyebrow">Help shape the next version</p>
+            <h3>What would you ask first?</h3>
+          </div>
+          <div class="feedback-input-wrap">
+            <label class="sr-only" for="feedback">Your feedback</label>
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="4"
+              maxlength="500"
+              placeholder="Tell us what you would want Sports Chat to explain..."
+              required
+            ></textarea>
+            <div class="feedback-meta">
+              <span id="feedback-status" role="status" aria-live="polite"></span>
+              <span id="character-count">0 / 500</span>
+            </div>
+          </div>
+          <button class="button button-accent" type="submit">
+            Submit feedback <span aria-hidden="true">↗</span>
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer section-shell">
+      <span>Sports Chat</span>
+      <span>Regular fans. Better questions.</span>
+    </footer>
+  </body>
+</html>
